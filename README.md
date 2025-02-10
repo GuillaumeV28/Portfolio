@@ -141,6 +141,7 @@ Cette charte graphique garantit un **design professionnel et une expérience flu
 
 🚀 **Prêt à être présenté de manière professionnelle !** 🎯  
 
+![Logo Initiales Nominatif Moderne Minimal Blanc Orange Noir](https://github.com/user-attachments/assets/7c46c5ae-09b1-4d7f-b256-d6a9cf1bba5d)
 
 **Logo**
 
