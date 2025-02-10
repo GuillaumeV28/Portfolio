@@ -128,7 +128,7 @@ Cette charte graphique garantit un **design professionnel et une expérience flu
 
 
 
-**WireFrame Acceuil**
+**WireFrame Accueil**
 
 ![Capture d'écran 2025-02-10 085817](https://github.com/user-attachments/assets/bb35ea1e-8c89-4049-8f57-b248a8de7478)
 
@@ -140,4 +140,19 @@ Cette charte graphique garantit un **design professionnel et une expérience flu
 
 ![Capture d'écran 2025-02-10 085834](https://github.com/user-attachments/assets/9f14671d-0dfb-490a-be8f-0aee2a0c02bb)
 
+
+**Maquettage**
+*page accueil:
+
+![Capture d'écran 2025-02-10 090904](https://github.com/user-attachments/assets/1cf48d97-c804-4e46-b51d-df82da43156f)
+
+
+*Page portfolio* :
+
+![Capture d'écran 2025-02-10 090948](https://github.com/user-attachments/assets/b5c5bc63-6808-4236-ad6e-080a103600d4)
+
+
+*page contact**:
+
+![Capture d'écran 2025-02-10 091001](https://github.com/user-attachments/assets/1aed1169-910d-4532-b5e2-fa5202a8c7fc)
 
