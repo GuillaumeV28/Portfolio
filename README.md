@@ -127,6 +127,13 @@ Cette charte graphique garantit un **design professionnel et une expérience flu
 🚀 **Prêt à être présenté de manière professionnelle !** 🎯  
 
 
+**Logo**
+
+![logo1](https://github.com/user-attachments/assets/0f0b6641-977d-41cc-9095-8cb979db11d5)
+
+**Use Case**
+
+![Capture d'écran 2025-02-10 091614](https://github.com/user-attachments/assets/5ac43c20-5033-4f88-984f-d404cbd2e766)
 
 **WireFrame Accueil**
 
