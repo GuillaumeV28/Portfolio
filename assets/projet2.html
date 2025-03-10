@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site de Restauration - Guillaume Voisine</title>
+    <title>Détecteur de foudre - Guillaume Voisine</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -25,28 +27,58 @@
     
     <main>
         <section class="project-detail">
-            <h1 class="project-title">Site Web de Restauration</h1>
-            <img src="img/resto.png" alt="Site de restauration" class="detail-img">
-            <p class="project-description">
-                Ce projet est un site web de restauration permettant aux utilisateurs de consulter le menu, 
-                réserver une table et contacter le restaurant. Il a été développé en environ 6 heures.
-            </p>
-            <p class="project-description">
-                Langages utilisés : HTML, CSS, JavaScript, PHP  
-
-                Pages du site :  
-                - 🏠 Accueil  
-                - 📅 Prise de rendez-vous  
-                - 📜 Menu  
-                - 📩 Contact  
-            </p>
-            <div class="project-links">
-                <a href="https://github.com/GuillaumeV28/TP_Resto" target="_blank" class="github-link">
-                    <img src="img/github-icon.png" alt="GitHub" class="icon"> GitHub
-                </a>
-                <a href="https://ton-site-preview.com" target="_blank" class="preview-link">
-                    <img src="img/preview-icon.png" alt="Preview" class="icon"> Voir le site
-                </a>
+            <div class="project-header">
+                <h1 class="project-title">Détecteur de foudre pour appareil photo</h1>
+                <p class="project-subtitle">Un système automatisé pour capturer la beauté des éclairs</p>
+            </div>
+            
+            <div class="project-image-container">
+                <img src="img/aphoto.jpg" alt="Détecteur de foudre" class="detail-img">
+            </div>
+            
+            <div class="project-content">
+                <div class="project-description">
+                    <p>
+                        Ce détecteur de foudre est un dispositif conçu pour capturer automatiquement les éclairs lors d'orages. 
+                        Il est directement connecté à l'appareil photo via une prise jack et peut également être utilisé avec 
+                        un capteur infrarouge pour plus de précision.
+                    </p>
+                    <p>
+                        Lorsqu'un éclair apparaît, le capteur lumineux détecte la forte augmentation de lumière 
+                        et envoie immédiatement un signal électronique à l'appareil photo, déclenchant ainsi la prise de vue en 
+                        une fraction de seconde.
+                    </p>
+                </div>
+                
+                <div class="project-info">
+                    <h3>Technologies utilisées</h3>
+                    <div class="tech-list">
+                        <span class="tech-tag">Arduino</span>
+                        <span class="tech-tag">Capteurs photosensibles</span>
+                        <span class="tech-tag">Electronique</span>
+                        <span class="tech-tag">C++</span>
+                    </div>
+                </div>
+                
+                <div class="project-info">
+                    <h3>Caractéristiques principales</h3>
+                    <ul class="feature-list">
+                        <li>Détection ultra-rapide des éclairs (moins de 50ms)</li>
+                        <li>Compatible avec la plupart des appareils photo DSLR</li>
+                        <li>Sensibilité ajustable pour différentes conditions météorologiques</li>
+                        <li>Boîtier résistant aux intempéries</li>
+                        <li>Batterie longue durée (>8h d'utilisation continue)</li>
+                    </ul>
+                </div>
+                
+                <div class="project-links">
+                    <a href="#" class="link-button">
+                        <i class="fa-brands fa-github"></i> Voir sur GitHub
+                    </a>
+                    <a href="#" class="link-button outline">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i> Démonstration
+                    </a>
+                </div>
             </div>
         </section>
     </main>
@@ -56,4 +88,3 @@
     </footer>
 </body>
 </html>
-

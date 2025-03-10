@@ -7,6 +7,7 @@
     <title>Portfolio - Guillaume Voisine</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -16,7 +17,7 @@
                     <img src="img/logo1.png" alt="Logo de Guillaume Voisine" class="logo-img">
                 </a>
             </div>            
-            <h2 class="header-title">MES DIVERS PROJETS</h2>
+            <h2 class="header-title">MES PROJETS</h2>
             <ul class="titre">
                 <li><a href="index.html">Accueil</a></li>
                 <li><a href="portfolio.html">Portfolio</a></li>
@@ -28,54 +29,95 @@
     
     <main>
         <section class="portfolio-section">
-            <div class="portfolio-item">
-                <a href="projet1.html">
-                <img src="img/aphoto.jpg" alt="Projet 1" class="project-img">
-                </a>
-                <div class="project-text">
-                    <h3>Détecteur de foudre pour appareil photo</h3>
-                    <p>Développement d'un capteur déclenchant automatiquement une photo à l'apparition de la foudre.</p>
-                </div>
+            <div class="portfolio-heading">
+                <h2>Découvrez mes réalisations</h2>
+                <p>Une sélection de mes meilleurs projets techniques et créatifs</p>
             </div>
-            <hr class="separator">
-    
-            <div class="portfolio-item">
-                <a href="projet2.html">
-                <img src="img/jeux.jpg" alt="Projet 2" class="project-img">
-                </a>
-                <div class="project-text">
-                    <h3>Création d'un site de restauration</h3>
+            
+            <div class="portfolio-grid">
+                <div class="portfolio-card">
+                    <div class="portfolio-card-image">
+                        <img src="img/aphoto.jpg" alt="Détecteur de foudre">
+                        <div class="card-overlay">
+                            <a href="projet1.html" class="view-project">
+                                <i class="fas fa-eye"></i> Voir le projet
+                            </a>
+                        </div>
+                    </div>
+                    <div class="portfolio-card-content">
+                        <h3>Détecteur de foudre</h3>
+                        <p>Système automatisé de prise de photo à l'apparition d'un éclair</p>
+                        <div class="card-tags">
+                            <span>Arduino</span>
+                            <span>Electronique</span>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <hr class="separator">
-    
-            <div class="portfolio-item">
-                <a href="projet3.html">
-                <img src="img/jeuxarc.gif" alt="Projet 3" class="project-img">
-                </a>
-                <div class="project-text">
-                    <h3>Création d'un jeux arcade style Battle Space</h3>
-                    <p>Développement d'un jeu d'arcade en language C.</p>
+                
+                <div class="portfolio-card">
+                    <div class="portfolio-card-image">
+                        <img src="img/jeux.jpg" alt="Site de restauration">
+                        <div class="card-overlay">
+                            <a href="projet2.html" class="view-project">
+                                <i class="fas fa-eye"></i> Voir le projet
+                            </a>
+                        </div>
+                    </div>
+                    <div class="portfolio-card-content">
+                        <h3>Site de restauration</h3>
+                        <p>Plateforme web pour un restaurant avec système de réservation</p>
+                        <div class="card-tags">
+                            <span>HTML/CSS</span>
+                            <span>JavaScript</span>
+                            <span>PHP</span>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <hr class="separator">
-    
-            <div class="portfolio-item">
-                <a href="projet4.html">
-                <img src="img/tiktok.jpg" alt="Projet 4" class="project-img">
-                </a>
-                <div class="project-text">
-                    <h3>Création de contenues musicaux sur les réseaux sociaux</h3>
-                    <p>Vidéos de chant et piano/guitare sur TikTok (95k abonnés).</p>
+                
+                <div class="portfolio-card">
+                    <div class="portfolio-card-image">
+                        <img src="img/jeuxarc.gif" alt="Jeu d'arcade">
+                        <div class="card-overlay">
+                            <a href="projet3.html" class="view-project">
+                                <i class="fas fa-eye"></i> Voir le projet
+                            </a>
+                        </div>
+                    </div>
+                    <div class="portfolio-card-content">
+                        <h3>Jeu d'arcade Battle Space</h3>
+                        <p>Développement d'un jeu d'arcade en langage C inspiré de Space Invaders</p>
+                        <div class="card-tags">
+                            <span>C</span>
+                            <span>Game Dev</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-card">
+                    <div class="portfolio-card-image">
+                        <img src="img/tiktok.jpg" alt="Contenu musical">
+                        <div class="card-overlay">
+                            <a href="projet4.html" class="view-project">
+                                <i class="fas fa-eye"></i> Voir le projet
+                            </a>
+                        </div>
+                    </div>
+                    <div class="portfolio-card-content">
+                        <h3>Création de contenu musical</h3>
+                        <p>Vidéos de chant et piano/guitare sur TikTok (95k abonnés)</p>
+                        <div class="card-tags">
+                            <span>TikTok</span>
+                            <span>Musique</span>
+                            <span>Création</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
     
-    
-      
     <footer>
-        <p>&copy; 2025 Guillaume Voisine. Tous les droits réservés.</p>
+        <p>&copy; 2025 Guillaume Voisine. Tous droits réservés.</p>
     </footer>
 </body>
 </html>
